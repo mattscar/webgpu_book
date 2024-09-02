@@ -1,0 +1,13 @@
+{
+    "files": [ "appa_triangle.ts" ],
+    "compilerOptions": {
+        "target": "es2021",  
+        "lib": [ "dom", "esnext" ],
+        "types": [ "@webgpu/types" ],        
+        "removeComments": true,
+        "alwaysStrict": true,
+        "noEmitOnError": true, 
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    }
+}

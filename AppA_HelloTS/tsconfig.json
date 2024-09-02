@@ -1,0 +1,11 @@
+{
+    "files": [ "appa_hello.ts" ],
+    "compilerOptions": {
+        "target": "es2021",  
+        "removeComments": true,
+        "alwaysStrict": true,
+        "noEmitOnError": true, 
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    }
+}
