@@ -18,6 +18,31 @@ if (!adapter) {
     msg_array.push("GPUAdapter found");
 }
 
+console.log(adapter);
+
+// Access information about the GPU adapter
+/*const info = await adapter.requestAdapterInfo();
+if(info) {
+   console.log("Vendor: " + info.vendor);
+   console.log("Architecture: " + info.architecture);
+   console.log("Device: " + info.device);
+   console.log("Description: " + info.description);
+}*/
+
+ // Display all of the supported features
+ console.log("Supported feature: ");
+ adapter.features.forEach((value) => {
+    console.log("\t", value);
+ });
+
+ console.log("Limits: ");  
+ for (const key in adapter.limits) 
+ {
+    const value = adapter.limits[key];
+    console.log(`\t${key}: ${value}`);
+ }
+
+
 // Access the GPU
 const device = await adapter.requestDevice();
 if (!device) {

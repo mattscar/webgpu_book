@@ -8,6 +8,7 @@ The projects in the chapters are given as follows:
 - **Ch03_BlueCanvas** - Fills a WebGPU canvas with color
 - **Ch04_OrangeTriangle** - Uses vertex attributes for rendering
 - **Ch04_MultiTriangle** - Passes data from the vertex shader to the fragment shader
+- **Ch05_RotateSquare** - Rotates a square using matrices stored in uniform buffers
 - **Ch05_Cubes** - Transforms objects using matrices stored in uniform buffers
 - **Ch06_ShinySphere** - Implements Blinn-Phong shading in a fragment shader
 - **Ch06_SimpleTexture** - Uses a texture to display an image in the scene
